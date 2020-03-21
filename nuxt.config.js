@@ -1,4 +1,5 @@
-require('dotenv').config()
+import dotenv from 'dotenv'
+dotenv.config()
 
 export default {
   mode: 'spa',
@@ -69,5 +70,9 @@ export default {
   pageTransition: {
     name: 'layout',
     mode: 'out-in'
+  },
+  env: {
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
   }
 }
