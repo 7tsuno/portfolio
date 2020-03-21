@@ -1,0 +1,11 @@
+.layout-enter-active,
+.layout-leave-active {
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
