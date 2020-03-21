@@ -4,11 +4,11 @@
       <v-container class="fill-height" fluid>
         <v-row>
           <v-col cols="12" align="center" justify="center">
-            <div class="display-4 font-weight-thin">
-              Toshiahru Nakayama
+            <div class="display-3 font-weight-thin">
+              Toshiharu Nakayama
             </div>
-            <div class="display-1 font-weight-thin">
-              I'm Frontend/Backend Developer
+            <div class="headline font-weight-thin mt-2">
+              Frontend/Backend Developer
             </div>
           </v-col>
           <v-col align="center" justify="center">
@@ -32,4 +32,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.container.fill-height > .row {
+  max-width: none;
+}
+</style>
