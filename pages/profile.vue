@@ -1,17 +1,17 @@
 <template>
   <v-app>
-    <div class="containerMe my-4">
+    <v-container style="max-width: 1200px">
       <div class="display-1 my-4">
         About me
       </div>
       <div class="my-2">
-        <div class="headline my-2">
+        <div class="title my-2">
           Name : Toshiharu Nakayama
         </div>
-        <div class="headline my-2">
+        <div class="title my-2">
           BirthYear : 1988
         </div>
-        <div class="headline my-2">
+        <div class="title my-2">
           Frontend / Backend Developer
         </div>
         <SNS />
@@ -34,7 +34,7 @@
       <v-btn to="/">
         Back
       </v-btn>
-    </div>
+    </v-container>
   </v-app>
 </template>
 
@@ -55,13 +55,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.containerMe {
-  width: 90%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 2em;
-}
-</style>
